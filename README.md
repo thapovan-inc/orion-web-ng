@@ -1,4 +1,4 @@
-# GrpcWebNg
+# Orion Tracer For Angular 5+ Apps
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 

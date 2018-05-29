@@ -1,0 +1,13 @@
+.jumbotron {
+  height: 235px;
+}
+.form-control {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.list-group-item .track-name {
+  padding-left: 8px;
+  vertical-align: middle;
+}

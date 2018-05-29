@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <section class="jumbotron text-center">
+    <h1> Welcome to {{ title }}! </h1>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Enter search string" #search>
+      <br>
+      <button class="btn btn-primary" (click)="doSearch(search.value)">Search</button>
+    </div>
+  </section>
+  <div *ngIf="found" class="album py-8 bg-light">
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let track of itunes.results">
+          <img src="{{track.artworkUrl30}}">
+          <a target="_blank" class="track-name" href="{{track.trackViewUrl}}">{{ track.trackName }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
